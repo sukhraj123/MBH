@@ -424,7 +424,9 @@ padding: 16px 0;
 
 }
 
-
+.mobile{
+    display:none
+}
 /** Product Color **/
 .product-color{
     margin: 10px 0;
@@ -534,10 +536,18 @@ padding: 16px 0;
 .product-btn-group .heart:hover{
     color: var(--accent-color);
 }
-
+.main{
+    display:block
+}
 
 /** Responsive Mobile **/
 @media screen and (max-width:520px) {
+    .mobile{
+        display:block
+    }
+    .main{
+        display:none
+    }
     .container{
         padding: 20px;
         height: auto;
